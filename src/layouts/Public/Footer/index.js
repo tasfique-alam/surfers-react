@@ -4,7 +4,9 @@ import { Row, Col, Form, ListGroup } from "react-bootstrap";
 const Footer = () => {
   return (
     <div className="footer-new p-5">
-      footer design here
+      <div className="container">
+        footer design here
+      </div>
     </div>
   );
 };

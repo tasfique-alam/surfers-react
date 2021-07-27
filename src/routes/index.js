@@ -21,7 +21,7 @@ const Routes = () => {
                     component={Product}
                     exact
                     layout={Main}
-                    path='/'
+                    path='/product'
                     title='All Product'
                 />
                 <RouteWithLayout
@@ -35,7 +35,7 @@ const Routes = () => {
                     component={SurfersCO}
                     exact
                     layout={Main}
-                    path='/surfers'
+                    path='/'
                     title='Surfers CO'
                 />
             </Switch>
