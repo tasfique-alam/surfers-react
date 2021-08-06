@@ -11,11 +11,16 @@ $fb-bg-box: #385490;
 $fb-icon-box: #E5E5E5;
 $fb-user-bg: #F6F7F9;
 $caro-side-text: #8C8C8C;
-$montserrat : 'Montserrat', sans-serif;
+$montserrat : 'Montserrat-bold', sans-serif;
 $playfair-display:'Playfair Display', serif;
 $raleway: 'Raleway', sans-serif;
 $Roboto-Condensed: 'Roboto Condensed', sans-serif;
 //    Font Family
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: local('Montserrat-Bold'), url(../../../fonts/Montserrat-Bold.ttf) format('ttf');
+  }
 
 
 
